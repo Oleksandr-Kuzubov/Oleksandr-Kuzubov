@@ -1,0 +1,616 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Oleksandr Kuzubov
+Updated: March 2015
+Notes:	 Test task
+
+*/
+
+/* --------------------------------------
+   Navigation bar
+   -------------------------------------- */
+body {
+    background: lightgray;
+}
+
+.navbar {
+    background: #465A65;
+    color: white;
+}
+
+.navbar-toggle {
+    background: #ffffff;
+}
+
+.navbar-toggle > span {
+    background: #080808;
+}
+
+#rowNavBar {
+    margin: 0 !important;
+}
+
+#upperBrand {
+    padding: 0;
+    margin: 0;
+}
+
+#bar-left {
+    color: white;
+    font-size: 13px;
+    padding: 0;
+}
+
+#managerText {
+    padding: 10px 0;
+}
+
+#workDay {
+    margin-top: -18px;
+}
+
+#holiday {
+    margin-top: -18px;
+}
+
+#upperBrand > p > label {
+    color: darkorange;
+}
+
+#upperBrand > p > span {
+    font-size: large;
+    margin-top: -5px;
+}
+
+#upperBrand > p > a {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 13px 0 0 10px;
+    font-size: 45px;
+    color: darkorange;
+}
+
+#bar-center {
+    color: white;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+#bar-center .navbar-collapse ul li a:hover {
+    background: none !important;
+}
+
+.navbar-collapse > ul {
+    display: table !important;
+    width: 100% !important;
+}
+
+.navbar-collapse > ul > li {
+    display: table-cell !important;
+    float: none;
+    text-align: center;
+}
+
+.navbar-collapse > ul > li:first-child {
+    text-align: left;
+}
+
+.navbar-collapse > ul > li:last-child {
+    text-align: right;
+}
+
+.nav span {
+    font-size: large;
+}
+
+#allPhones {
+    margin-top: -10px;
+}
+
+#linkOfCompany {
+    margin-top: -10px;
+}
+
+.navbar .nav > li > a {
+    line-height: 5px;
+    color: white;
+}
+
+.navbar-collapse > ul > li:hover > a {
+    color: darkorange;
+}
+
+#searchInput {
+    width: 100%;
+}
+
+#searchForm .input-group .input-group-btn {
+    width: 50px;
+}
+
+#bar-right {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#bar-right ul {
+    display: table !important;
+    width: 100% !important;
+}
+
+#bar-right ul li {
+    display: table-cell;
+}
+
+#bar-right ul li:last-child {
+    text-align: right;
+}
+
+#bar-right > ul > li > a {
+    color: white;
+    font-size: small;
+}
+
+#bar-right > ul > li:hover > a {
+    color: darkorange;
+}
+
+#currentState {
+    line-height: 5px;
+    padding-top: 0;
+}
+
+.glyphicon.glyphicon-shopping-cart {
+    font-size: x-large;
+}
+
+#makeOrderButton {
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* --------------------------------------
+   Root
+   -------------------------------------- */
+span.tab-space {
+    padding-left: 3em;
+}
+
+#root {
+    margin: 175px 0 0 0;
+    padding: 0;
+}
+
+#root .panel {
+    margin: 10px 0 0 0;
+}
+
+#root .panel .panel-heading{
+    background: #465A65;
+}
+
+#root-left-right {
+    padding: 0;
+    margin: 0;
+}
+
+#root-left {
+    padding: 0;
+    margin: 0;
+}
+
+#productPanel {
+    text-align: center;
+}
+
+#productCategoryTitle {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+#root-left .panel .list-group {
+    padding: 0;
+    margin: 0;
+}
+
+#root-left .panel .list-group .list-group-item .row {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#root-left .panel .list-group .list-group-item .col-sm-4 {
+    background: #2d6987;
+    padding: 15px 0;
+}
+
+#root-left .panel .list-group .list-group-item .col-sm-8 {
+    padding: 15px 0;
+}
+
+#root-left .panel .list-group .list-group-item {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#root-left .panel .list-group .list-group-item:hover, #root-left .panel .list-group .list-group-item:hover .col-sm-4 {
+    background: darkorange;
+}
+
+#root-left .panel .list-group .list-group-item span {
+    font-size: x-large;
+}
+
+#root-left .panel .list-group .list-group-item a {
+    font-size: 12px;
+    color: #000000;
+}
+
+#addToAbove .col-sm-8{
+    padding: 5px 0 0 0 !important;
+
+}
+
+#registrPanel {
+    text-align: center;
+}
+
+#productCategoryTitle_2 {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+#rowRegistr {
+    padding: 0;
+    margin: 0 0 -10px 0;
+}
+
+#rowRegistr .col-sm-4 {
+    padding: 0;
+}
+
+#root-left_4 {
+    background: #ffffff;
+}
+
+#productCategoryTitle_3 {
+    background: darkslategrey;
+    color: #ffffff;
+    text-align: center;
+}
+
+#cadillac {
+    width: 100%;
+    height: inherit;
+}
+
+.text-muted {
+    margin-bottom: 0;
+}
+
+#newsFooter {
+    margin: 30px 0 10px 0;
+    text-align: left;
+}
+
+#knownMore {
+    padding: 0 0 20px 20px;
+}
+
+#newsList .list-group-item p {
+    text-align: left;
+    padding: 5px 0 0 10px;
+    margin: 0;
+}
+
+#newsList .list-group-item h4 {
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    margin: 0;
+}
+
+#newsList .list-group-item a {
+    text-align: left;
+    padding: -1px 0 0 10px;
+    margin: 0;
+}
+
+#newsList .list-item {
+    margin-top: 0px;
+}
+
+.triangle-bottomright {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 60px solid #3071a9;
+    border-left: 60px solid transparent;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #ffffff;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: -45px;
+    left: -20px;
+}
+
+/* --------------------------------------
+   Root Center
+   -------------------------------------- */
+#root-center {
+    background: lightgray;
+}
+
+.carousel-inner .item .span4 img {
+    width: 100%;
+}
+
+.carousel-inner .item .span4 div {
+    padding: 0;
+}
+
+.carousel-inner .item .span4 div:nth-child(2) {
+    padding: 0 2px;
+}
+
+.carousel-inner .item .span4 div:nth-child(1) {
+    padding-right: 4px;
+}
+
+.carousel-inner .item .span4 div:nth-child(3) {
+    padding-left: 4px;
+}
+
+#myCarousel {
+    margin: 12px 0;
+}
+
+#popularCategoryHeader {
+    background: #465A65;
+    color: #ffffff;
+}
+
+.panel .panel-body {
+    padding: 0;
+}
+
+.panel-main {
+    background: #ffffff;
+}
+
+.panel-main .panel-body .panel {
+    border: thin solid #cccccc;
+}
+
+.panel-main .panel-body .row .col-md-3 .panel .panel-body > img {
+    width: 100%;
+}
+
+#rowPanelOfCategory .row .panel .panel-footer{
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    padding: 5px 0 0 0;
+    height: 40px;
+}
+
+#rowPanelOfCategory .row .panel .panel-footer:hover{
+    background: darkorange;
+}
+
+#exclDetHeader {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+.row .col-sm-3 > a {
+    font-size: smaller;
+}
+
+.row .col-sm-3 > img {
+    padding-left: 10px;
+}
+
+#snglogoHeader {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+#sertificates {
+    text-align: center;
+}
+
+#sertificatesHeader {
+    background: darkslategrey;
+    color: #ffffff;
+    text-align: left;
+}
+
+#sponsorsHeader {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+#commentsHeader {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+#bodyOfComments {
+    padding: 10px;
+}
+
+address {
+    font-size: smaller;
+}
+
+.triangle-bottomright-other {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    border-bottom: 60px solid #3071a9;
+    border-left: 60px solid transparent;
+}
+
+.caret-other {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #ffffff;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: -45px;
+    left: -20px;
+}
+
+/* --------------------------------------
+   Root Right
+   -------------------------------------- */
+
+#root-right {
+    background: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+#root-right .panel {
+    text-align: center;
+}
+
+#videoHeader {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+.panel-heading .panel-title {
+    font-size: small;
+}
+
+.embed-responsive{
+    height: 132px;
+}
+
+#offersHeader {
+    background: darkslategrey;
+    color: #ffffff;
+}
+
+#myCarousel-left a {
+    margin: 75px 0 40px 0;
+}
+
+.glyphicon.glyphicon-chevron-left {
+    font-size: medium;
+    color: darkorange;
+}
+
+.glyphicon.glyphicon-chevron-right {
+    font-size: medium;
+    color: darkorange;
+}
+
+#oilCarousel {
+    padding: 0 10px 0 0;
+    margin: -20px 0 -20px 0;
+}
+
+#oilCarousel .item {
+    padding: 0px;
+}
+
+#oilCarousel .item img {
+    width: auto;
+    padding: 0 0 0 10px;
+}
+
+#oilCarousel .item p {
+    color: darkorange;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#counter {
+    margin: -10px 0 10px 20px;
+    padding: 0 0 10px 0;
+    background: darkorange;
+    width: 150px;
+    height: 35px;
+}
+
+#counter input {
+    width: 80px;
+    float: left;
+}
+
+#counter span {
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+#banner {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+footer {
+    background: #465A65;
+    text-align: center;
+}
+
+.row .list-inline > li > p {
+    color: #737373;
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    .navbar-brand {
+        padding: 13px 0 0 0;
+        font-size: 35px;
+    }
+
+
+    #bar-right {
+        display: none;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding: 13px 0 0 0;
+        font-size: 40px;
+    }
+
+    #bar-right {
+        display: none;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+
